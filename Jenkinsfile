@@ -4,7 +4,7 @@ pipeline
         stages{
             stage('Clone'){
                 steps{
-                    git ''
+                    git 'https://github.com/tiennma2k23/spring-boot-security.git'
                 }
             }
         }
